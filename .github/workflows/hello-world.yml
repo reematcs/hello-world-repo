@@ -1,9 +1,7 @@
 # Workflow Name - Hello World
 name: Hello World
 # Trigger Workflow on push events
-on: 
-  push:
-    branches: main
+'on': push
 # Workflow should have a Job named - hello-job
 # a. Run Job on - ubuntu-latest runner
 # b. Job has 1 step named - Echo text
